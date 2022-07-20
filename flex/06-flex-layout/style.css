@@ -26,12 +26,6 @@ input {
   margin-bottom: 16px;
 }
 
-.wrap-all {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .left-links, .right-links {
   padding: 0;
 }
@@ -60,4 +54,11 @@ li {
 
 .footer {
   background-color: #eeeeee;
+}
+
+.wrap-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
 }
