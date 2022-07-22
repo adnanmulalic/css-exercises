@@ -28,6 +28,7 @@ ul {
 
 li {
   list-style: none;
+  margin: 15px 0;
 }
 
 .footer {
@@ -36,7 +37,7 @@ li {
   color: darkmagenta;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .sidebar {
@@ -60,10 +61,11 @@ li {
 }
 .middle {
   display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .wrapAll {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
